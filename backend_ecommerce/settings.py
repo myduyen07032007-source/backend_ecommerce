@@ -198,3 +198,15 @@ DJOSER = {
     },
 }
 AUTH_USER_MODEL = 'user.UserAccount'
+
+SWAGGER_SETTINGS = {
+    'USE_SESSION_AUTH': False,
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header',
+            'description': 'JWT Authorization header. Example: Bearer <token>',
+        }
+    },
+}
