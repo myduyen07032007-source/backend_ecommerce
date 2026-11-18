@@ -1,0 +1,10 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/v1/users/profile/
+description: ""
+url: http://127.0.0.1:8000/api/v1/users/profile/
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_1d8o}}"
+order: 4000

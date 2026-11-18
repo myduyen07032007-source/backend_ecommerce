@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/v1/category/
+description: ""
+url: http://127.0.0.1:8000/api/v1/category/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Dien thoai\",\r
+
+    \    \"slug\": \"dien-thoai\",\r
+
+    \    \"icon_url\": \"phone.png\"\r
+
+    }"
+order: 13000

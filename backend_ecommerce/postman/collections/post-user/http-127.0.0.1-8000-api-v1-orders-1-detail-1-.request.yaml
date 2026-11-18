@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/v1/orders/1/detail/1/
+description: ""
+url: http://127.0.0.1:8000/api/v1/orders/1/detail/1/
+method: GET
+order: 18000

@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://127.0.0.1:8000/auth/jwt/create/
+description: ""
+url: http://127.0.0.1:8000/auth/jwt/create/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"username\": \"testuser\",\r
+
+    \    \"password\": \"Test123456\"\r
+
+    }"
+order: 11000

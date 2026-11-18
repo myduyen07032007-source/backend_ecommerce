@@ -1,0 +1,21 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/v1/orders/
+description: ""
+url: http://127.0.0.1:8000/api/v1/orders/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"user_id\": 2,\r
+
+    \    \"receiver_name\": \"Duyen\",\r
+
+    \    \"receiver_phone\": \"0901234567\",\r
+
+    \    \"receiver_address\": \"Da Nang\",\r
+
+    \    \"description\": \"Don hang test\"\r
+
+    }"
+order: 5000
